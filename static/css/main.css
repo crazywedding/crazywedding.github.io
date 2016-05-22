@@ -1,0 +1,242 @@
+body {
+  padding-top: 50px;
+}
+
+.container {
+  max-width: 800px;
+  min-width: 600px;
+  padding: 0px;
+  width: 800px;
+}
+
+.secondPage {
+  margin-top: -230px;
+}
+
+#mainHdr {
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+  background-image: url(/static/img/back02.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 800px;
+  height: 250px;
+}
+
+#countdown {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 75px;
+  position: relative;
+  top: 20px;
+  text-align: center;
+}
+
+#countdownInner {
+    width: 340px;
+    height: 75px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.countdownItem {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #505050;
+    height: 65px;
+    width: 75px;
+    color: #F0F0F0;
+    font-family: 'Tangerine', cursive;
+    font-size: 24pt;
+    text-align: center;
+
+    line-height: 0.9;
+}
+
+.text {
+    font-family: Franklin Gothic Book, Helvetica Neue, Arial;
+    font-size: 12pt;
+    color: #777;
+}
+
+.small {
+    font-size: 10pt;
+}
+
+.noteText {
+    font-size: 8pt;
+    color: #BBB;
+}
+
+.noteText strong {
+    font-weight: bold;
+    color: #000;
+}
+
+.textEm {
+    font-family: Franklin Gothic Book, Helvetica Neue, Arial;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #777;
+}
+
+.faqQuestion {
+    font-weight: bold;
+    color: #777;
+    margin: 10px;
+}
+
+.infoText {
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.faqAnswer {
+    margin: 10px 30px 30px 30px;
+}
+
+.countdownNumber {
+    padding-top: -5px;
+    font-size: 32pt;
+    line-height: 0.5;
+}
+
+#pnlDate {
+  margin: 30px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+  font-family: 'Tangerine', cursive;
+  font-size: 24pt;
+  font-width: bold;
+  color: #777;
+}
+
+
+textarea {
+    width: 600px;
+    height: 150px;
+}
+
+.admLink {
+    font-family: Franklin Gothic Book, Helvetica Neue, Arial;
+    font-size: 8pt;
+    color: #BBB;
+    margin-left: 5px;
+}
+
+.admLinkHidden {
+    font-family: Franklin Gothic Book, Helvetica Neue, Arial;
+    font-size: 8pt;
+    color: #FBFBFB;
+    margin-left: 5px;
+}
+
+#loginBlock {
+    position: fixed;
+    top: 5px;
+    left: 10px;
+}
+
+#pnlButtons {
+  border-top: 2px solid #777;
+  margin: 30px 0px 0px 0px;
+}
+
+#pnlButtons2 {
+  border-bottom: 2px solid #777;
+  margin-bottom: 30px;
+  width: 800px;
+  margin-left: 0px;
+}
+
+.link {
+  font-family: 'Tangerine', cursive;
+  font-size: 20pt;
+  margin-top: 10px;
+  padding-top: 0px;
+  padding-bottom: 15px;
+  /* background-color: #eee;
+  background-color: rgba(86,61,124,.15);
+  border: 1px solid #ddd;
+  border: 1px solid rgba(86,61,124,.2); */
+
+  text-align: center;
+}
+
+.epigraph {
+    margin-left: 490px;
+    margin-bottom: 20px;
+    font-family: Franklin Gothic Book, Helvetica Neue, Arial;
+    font-size: 10pt;
+    color: #777;
+}
+
+.center {
+    text-align: center;
+}
+
+#edtText {
+    height: 100px;
+}
+
+.mainLink {
+  margin-top: -40px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  font-family: 'Tangerine', cursive;
+  font-size: 20pt;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+a:hover img {
+  opacity: 0.5;
+}
+
+a:hover .mainLink {
+  color: #444;
+  text-decoration: underline;
+}
+
+#formatInfo {
+    margin-top: 40px;
+}
+
+.savedOk {
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #40B040;
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+}
+
+.copyrightFootnote {
+    font-family: Franklin Gothic Book, Helvetica Neue, Arial;
+    font-size: 8pt;
+    color: #FBFBFB;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.copyrightFootnote a {
+    color: #FBFBFB;
+}
+
+.copyrightFootnote:hover {
+    color: #BBB;
+}
+
+.copyrightFootnote:hover a {
+    color: #AAB;
+}

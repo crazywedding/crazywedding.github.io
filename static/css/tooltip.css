@@ -1,0 +1,67 @@
+.fx-tooltip-container {
+    position: relative;
+}
+
+.fx-tooltip {
+    position: absolute;
+    z-index: 997;
+    padding: 0px;
+    margin: 0px;
+}
+
+.fx-tooltip-pointer {
+    position: absolute;
+    left: -8px;
+    top: -8px;
+    width: 16px;
+    height: 16px;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.fx-tooltip-title {
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    font-family: Helvetica Neue, Arial;
+    font-size: 11pt;
+    z-index: 998;
+    background-color: rgba(250, 250, 250, 0.8);
+    padding-top: 3px;
+    border-radius: 4px;
+}
+
+.fx-tooltip-text {
+    opacity: 0;
+    background-color: rgba(250, 250, 250, 0.8);
+    position: absolute;
+    padding: 5px 10px 5px 10px;
+    z-index: 998;
+    cursor: auto;
+    font-family: Franklin Gothic Book, Helvetica Neue, Arial;
+    font-size: 10pt;
+    text-align: left;
+    border-radius: 6px;
+    /* border: 1px solid red; */
+}
+
+.fx-red {
+    color: #E00000;
+}
+
+.fx-green {
+    color: #008000;
+}
+
+.fx-blue {
+    color: #0000E0;
+}
+
+.fx-gray {
+    color: #777;
+}
+
+/*
+.fx-tooltip:hover .fx-tooltip-text {
+    opacity: 1;
+} */
