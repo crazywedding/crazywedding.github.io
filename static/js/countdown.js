@@ -1,5 +1,5 @@
 
-var DATE_TO = new Date("2016-09-29T15:00:00+03:00");
+var DATE_TO = new Date("2016-09-29T16:00:00+03:00");
 var pnlDate = $("#pnlDate");
 var countdownDay = $("#countdownDay");
 var countdownHour = $("#countdownHour");
@@ -19,7 +19,7 @@ var timeDiff = function(dtFrom, dtTo) {
 }
 
 var countdownTimer = function() {
-    var diff = timeDiff(new Date(), DATE_TO);
+    var diff = timeDiff(DATE_TO, new Date());
     countdownDay.html(diff.d);
     countdownHour.html(diff.h);
     countdownMin.html(diff.m);
