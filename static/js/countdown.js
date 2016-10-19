@@ -1,6 +1,5 @@
 
 var DATE_TO = new Date("2016-09-29T16:00:00+03:00");
-var pnlDate = $("#pnlDate");
 var countdownDay = $("#countdownDay");
 var countdownHour = $("#countdownHour");
 var countdownMin = $("#countdownMin");
@@ -38,7 +37,6 @@ if (dd.m < 10) {
 if (dd.d < 10) {
   dd.d = "0" + dd.d;
 }
-pnlDate.html("" + dd.d + "." + dd.m + "." + dd.y);
 
 countdownTimer();
 setInterval(countdownTimer, 1000);
